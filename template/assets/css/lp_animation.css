@@ -1,0 +1,22 @@
+@keyframes circle01 {
+    0% {transform: translateY(-50%); opacity: 0;}
+    75% {transform: translateY(20%) scale(1, 0.8); opacity: 1;}
+    100% {transform: translateY(0%); opacity: 1;}
+}
+@keyframes circle02 {
+    0% {transform: translateY(-50%); opacity: 0;}
+    25% {transform: translateY(-50%); opacity: 0;}
+    81.25% {transform: translateY(20%) scale(1, 0.8); opacity: 1;}
+    100% {transform: translateY(0%); opacity: 1;}
+}
+@keyframes circle03 {
+    0% {transform: translateY(-50%); opacity: 0;}
+    40% {transform: translateY(-50%); opacity: 0;}
+    85% {transform: translateY(20%) scale(1, 0.8); opacity: 1;}
+    100% {transform: translateY(0%); opacity: 1;}
+}
+@keyframes rateBack {
+    0% {background-color: #f3f6fd;}
+    50% {background-color: #e0e9ff;}
+    100% {background-color: #f3f6fd;}
+}
